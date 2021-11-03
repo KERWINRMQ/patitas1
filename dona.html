@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <title>ARVERGUE PATITAS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="estil.css">
+  
+</head>
+<body>
+<nav>
+  <div class="logo"></div>
+  <a class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+  </a>
+  <div class="menu">
+            <a href="inicio.html">INICIO</a>
+            <a href="somos.html">SOMOS</a>
+            <a href="adopta.html">ADOPTA</a>
+            <a href="dona.html">DONA AQUI</a>
+            <a href="galeria.html">GALERIA</a>
+            <a href="contacto.html">CONTACTO</a>
+  </div>
+</nav>
+<header></header>
+<img src="foto4.jpg">
+    <h1 class="center">FORMULARIO DE DONACION</h1>
+
+<section>
+ <div class="containere"></div>
+  <form>
+    <div class="fila">
+      <div class="col-25">
+      <label>Nombre:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="nom" placeholder="escribe tu nombre">
+      </div>
+    </div>
+    <div class="fila">
+      <div class="col-25">
+      <label>Correo:</label>
+      </div>
+      <div class="col-75">
+        <input type="email" name="correo" placeholder="escribe tu correo">
+      </div>
+    </div>
+    <div class="fila">
+      <div class="col-25">
+      <label>Pais:</label>
+      </div>
+      <div class="col-75">
+        <select name="pais">
+          <option>Bolivia</option>
+          <option>Peru</option>
+          <option>Argentina</option>
+          <option>Mexico</option>
+          <option>Chile</option>
+        </select>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="col-25">
+      <label>Tipo de Donación:</label>
+      </div>
+      <div class="col-75">
+        <select name="pais">
+          <option>Mensual</option>
+          <option>Trimestral</option>
+          <option>Semestral</option>
+          <option>Anual</option>
+        </select>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="col-25">
+      <label>Cantidad de donacion:</label>
+      </div>
+      <div class="col-75">
+        <input type="radio" name="Tipo" value="mensual">10$
+        <input type="radio" name="Tipo" value="trimestral">100$
+        <input type="radio" name="Tipo" value="Semestral">400$<br>
+        <input type="radio" name="Tipo" value="mensual">20$
+        <input type="radio" name="Tipo" value="trimestral">200$
+        <input type="radio" name="Tipo" value="Semestral">500$<br>
+        <input type="radio" name="Tipo" value="mensual">50$
+        <input type="radio" name="Tipo" value="trimestral">300$
+        <input type="radio" name="Tipo" value="Semestral">1000$<br>
+      </div>
+    </div>
+     <div class="fila">
+      <div class="col-25">
+      <label>Numero de cuenta:</label>
+      </div>
+      <div class="col-75">
+        <input type="number" name="monto" placeholder="escribe tu numero de cuenta" maxlength="15">
+      </div>
+    </div>
+     <div class="fila">
+      <div class="col-25">
+      <label>CVC:</label>
+      </div>
+      <div class="col-75">
+        <input type="number" name="clave" placeholder="escribe su numero "  min="1" maxle="999">
+      </div>
+    </div>
+    <div class="fila">
+      <div class="col-25">
+      <label>Clave de cuenta:</label>
+      </div>
+      <div class="col-75">
+        <input type="password" name="clave" placeholder="escribe tu clave" minlength="8" maxlength="15">
+      </div>
+    </div>
+    <div class="fila">
+    </div>
+    <div class="fila">
+      <div class="col-25">
+      <label>Comentarios:</label>
+      </div>
+      <div class="col-75">
+        <textarea placeholder="escribe un comentario"></textarea>
+      </div>
+    </div>
+    <div class="fila">
+      <div class="col50">
+      <input type="submit" name="enviar" value="enviar Formulario">
+      <input type="reset" name="clear" value="limpiar Formulario">
+      </div>
+        </div>
+    </form>
+  </div>
+  </section>
+  <br>
+ <footer>
+    Derechos Reservados
+</footer>
+  <script type="text/javascript">
+        $(".btn").on("click", function(){
+            $('.menu').toggleClass("show");
+        });
+    </script>
+</body>
+</html>
