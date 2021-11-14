@@ -5,12 +5,13 @@
             }
         .center{
             text-align: center;
-            padding: 40px;
+            padding: 35px;
             font-family: 'Questrial', sans-serif;
-            }
+        }
         .cen{
-            margin-left: auto;
-            margin-right: auto;
+            text-align: center;
+            padding: 10px;
+            font-family: 'Questrial', sans-serif;
         }
         h2{
             font-family: 'Questrial', sans-serif;
@@ -52,7 +53,25 @@
             height: 85px;
             float: left;
         }
-
+        .logos{
+            width: 400px;
+            height: 200px;
+            padding: 50px;
+        }
+        .imagenes{
+            width: 800px;
+            height: 400px;
+            padding: 40px;
+        }
+        .i{
+            width: 600px;
+            height: 400px;
+            padding: 40px;
+        }
+        .adopcion{
+            width: 280px;
+            height: 300px;
+        }
         .menu{
             position: absolute;
             right: 50px;
@@ -69,15 +88,60 @@
         .menu a:hover{
             color: #F31407;
         }
+        .menu2{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: minmax(100px auto);
+            height: 300px;
+            width: 780px;
+            margin-left: 270px;
+            padding: 10px;
+        }
+        .menu2 div:hover{
+            background: #E52A2A;
+            padding: 5px;
+        }
+        .menu2 div{
+            background: #FFFFFF;
+            margin: 50px;
+            border: 5px solid #FFFFFF;
+            text-align: center;
+        }
+        .menu2 div img{
+            width: 100%;
+            height: 300px;
+        }
+        .galeria{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: minmax(100px auto);
+            height: 280px;
+            width: 1200px;
+            margin-left: 65px;
+            padding: 10px;
+        }
+        .galeria div:hover{
+            background: #E52A2A;
+            padding: 5px;
+        }
+        .galeria div{
+            background: #FFFFFF;
+            margin: 10px;
+            border: 5px solid #FFFFFF;
+            text-align: center;
+        }
+        .galeria div img{
+            width: 100%;
+            height: 280px;
+        }
         .container{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-   
+            height: 300px;
             grid-template-rows: minmax(100px auto);
             margin: 70px;
             margin-left: 150px;
-            padding: 20px;
-            
+            padding: 20px;   
         }   
         .container div{
             background: #FFFFFF;
@@ -86,16 +150,13 @@
         }
         .container div img{
             width: 100%;
-
+            height: 300px;
         }
         .container div:hover{
-            
             background: #E52A2A;
             padding: 5px;
         }
         .container div a{
-            
-            
             text-decoration: none;
         }
         img {
@@ -131,14 +192,14 @@
             background: #333;
         }
         input[type=text], input[type=email], input[type=number],select, textarea {
-  width: 70%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 9px;
-  resize: vertical;
-}
-input[type=radio] {
-  width: 10%;
+            width: 70%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 9px;
+            resize: vertical;
+        }
+        input[type=radio] {
+            width: 10%;
   padding: 5px;
   border: 1px solid #ccc;
   resize: vertical;
@@ -155,7 +216,7 @@ label {
   display: inline-block;
 }
 input[type=submit],  input[type=reset]{
-  background-color: #339B56;
+  background-color: #EA2923;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -166,12 +227,12 @@ input[type=submit],  input[type=reset]{
 }
 
 input[type=submit]:hover, input[type=reset]:hover {
-  background-color: #E52A2A;
+  background-color: #747687;
 }
 
 .containere {
   border-radius: 5px;
-  background-color: #339B56;
+  background-color: #EA2923;
   padding: 20px;
 }
 .col-25 {
@@ -205,7 +266,7 @@ input[type=submit]:hover, input[type=reset]:hover {
   clear: both;
 }
 section{
-    background: #98A99E;
+    background: #FFFFFF;
     margin-left: 370px;
     margin-right: 370px;
 }
@@ -221,7 +282,17 @@ section{
         h2{
             font-family: 'Open Sans Condensed', sans-serif;
             text-align: center;
-        }   
+        }  
+        .i{
+            width: 350px;
+            height: 250px;
+            padding: 10px;
+        }
+        .imagenes{
+            width: 350px;
+            height: 250px;
+            padding: 10px;
+        } 
         .parrafo{
             background-color:  #6C7077;
             color: #F6F7F8;
@@ -232,13 +303,23 @@ section{
         }
         .container{
             display: grid;
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 1em;
             grid-template-rows: minmax(10px auto);
             margin: 20px;
-            padding: 10px;
+            padding: 20px;
+            height: 100px;
+        }
+        .container div img{
+            width: 100%;
+            height: 100px;
         }   
-
+        h2{
+            font-family: 'Questrial', sans-serif;
+            margin-left: 20px;
+            text-align: left;
+            margin-right: 0px;
+        }
         nav {
             overflow: visible;
         }
@@ -256,6 +337,22 @@ section{
             padding: 10px;
             margin: 0;
         }
+        .menu2{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: minmax(100px auto);
+            height: 230px;
+            width: 480px;
+            margin-left: 5px;
+            padding: 5px;
+        }
+        .menu2 div img{
+            width: 100%;
+            height: 230px;
+        }
+        .menu2 div{
+            margin: 50px;
+        }
         .btn {
             display: block;
             cursor: pointer;
@@ -263,6 +360,21 @@ section{
         .show {
             max-height: 500px;
         }
+        section{
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+        .col-75 {
+            margin-left: 180px;
+        }
+        .col-25 {
+            margin-left: 40px;
+        }
+        .col50{
+            margin-left: 30px;
+            margin-right: 60px;
+        }
+        
 
     }
         
